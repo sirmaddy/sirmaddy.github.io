@@ -1,0 +1,268 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.image-grid div {
+    width: 25%;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image01 {
+    background-image: url(../img/elements/w58.jpg);
+}
+
+.image02 {
+    background-image: url(../img/elements/w62.jpg);
+}
+
+.image03 {
+    background-image: url(../img/elements/w59.jpg);
+}
+
+.image04 {
+    background-image: url(../img/elements/w53.jpg);
+}
+
+.image05 {
+    background-image: url(../img/elements/w51.jpg);
+}
+
+.image06 {
+    background-image: url(../img/elements/w52.jpg);
+}
+
+.image07 {
+    background-image: url(../img/elements/w54.jpg);
+}
+
+.image08 {
+    background-image: url(../img/elements/w56.jpg);
+}
+
+.image09 {
+    background-image: url(../img/elements/w57.jpg);
+}
+
+.image10 {
+    background-image: url(../img/elements/w55.jpg);
+}
+
+.image11 {
+    background-image: url(../img/elements/w50.jpg);
+}
+
+.image12 {
+    background-image: url(../img/elements/w46.jpg);
+}
+
+.image13 {
+    background-image: url(../img/elements/w49.jpg);
+}
+
+.image14 {
+    background-image: url(../img/elements/w47.jpg);
+}
+
+.image15 {
+    background-image: url(../img/elements/w44.jpg);
+}
+
+.image16 {
+    background-image: url(../img/elements/w45.jpg);
+}
+
+.image17 {
+    background-image: url(../img/elements/w42.jpg);
+}
+
+.image18 {
+    background-image: url(../img/elements/w43.jpg);
+}
+
+.image19 {
+    background-image: url(../img/elements/w41.jpg);
+}
+
+.image20 {
+    background-image: url(../img/elements/w48.jpg);
+}
+
+.image21 {
+    background-image: url(../img/elements/w40.jpg);
+}
+
+.image22 {
+    background-image: url(../img/elements/w38.jpg);
+}
+
+.image23 {
+    background-image: url(../img/elements/w39.jpg);
+}
+
+.image24 {
+    background-image: url(../img/elements/w36.jpg);
+}
+
+.image25 {
+    background-image: url(../img/elements/w37.jpg);
+}
+
+.image26 {
+    background-image: url(../img/elements/w35.jpg);
+}
+
+.image27 {
+    background-image: url(../img/elements/w60.jpg);
+}
+
+.image28 {
+    background-image: url(../img/elements/w31.jpg);
+}
+
+.image29 {
+    background-image: url(../img/elements/w32.jpg);
+}
+
+.image31 {
+    background-image: url(../img/elements/w5.jpg);
+}
+
+.image32 {
+    background-image: url(../img/elements/w23.jpg);
+}
+
+.image33 {
+    background-image: url(../img/elements/w24.jpg);
+}
+
+.image34 {
+    background-image: url(../img/elements/w22.jpg);
+}
+
+.image35 {
+    background-image: url(../img/elements/w30.jpg);
+}
+
+.image36 {
+    background-image: url(../img/elements/w28.jpg);
+}
+
+.image37 {
+    background-image: url(../img/elements/w29.jpg);
+}
+
+.image38 {
+    background-image: url(../img/elements/w26.jpg);
+}
+
+.image39 {
+    background-image: url(../img/elements/w27.jpg);
+}
+
+.image40 {
+    background-image: url(../img/elements/w25.jpg);
+}
+
+.image41 {
+    background-image: url(../img/elements/w19.jpg);
+}
+
+.image42 {
+    background-image: url(../img/elements/w18.jpg);
+}
+
+.image43 {
+    background-image: url(../img/elements/w17.jpg);
+}
+
+.image44 {
+    background-image: url(../img/elements/w16.jpg);
+}
+
+.image45 {
+    background-image: url(../img/elements/w12.jpg);
+}
+
+.image46 {
+    background-image: url(../img/elements/w13.jpg);
+}
+
+.image47 {
+    background-image: url(../img/elements/w11.jpg);
+}
+
+.image48 {
+    background-image: url(../img/elements/w20.jpg);
+}
+
+.image49 {
+    background-image: url(../img/elements/w14.jpg);
+}
+
+.image50 {
+    background-image: url(../img/elements/w15.jpg);
+}
+
+.image51 {
+    background-image: url(../img/elements/w61.jpg);
+}
+
+.image52 {
+    background-image: url(../img/elements/w8.jpg);
+}
+
+.image53 {
+    background-image: url(../img/elements/w9.jpg);
+}
+
+.image54 {
+    background-image: url(../img/elements/w6.jpg);
+}
+
+.image55 {
+    background-image: url(../img/elements/w4.jpg);
+}
+
+.image56 {
+    background-image: url(../img/elements/w7.jpg);
+}
+
+.image57 {
+    background-image: url(../img/elements/w10.jpg);
+}
+
+.image58 {
+    background-image: url(../img/elements/w3.jpg);
+}
+
+.image59 {
+    background-image: url(../img/elements/w1.jpg);
+}
+
+.image60 {
+    background-image: url(../img/elements/w2.jpg);
+}
+
+.image61 {
+    background-image: url(../img/elements/w21.jpg);
+}
+
+@media screen and (max-width: 400px) {
+    .image-grid {
+        flex-direction: column;
+        flex-wrap: no-wrap;
+    }
+    .image-grid div {
+        width: 100%;
+    }
+}

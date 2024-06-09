@@ -18,19 +18,19 @@ body {
 }
 
 .image01 {
-    background-image: url(../img/elements/w58.jpg);
+    background-image: url(../img/elements/ggf2024.jpg);
 }
 
 .image02 {
-    background-image: url(../img/elements/w99.jpg);
+    background-image: url(../img/elements/yyt2024.jpg);
 }
 
 .image03 {
-    background-image: url(../img/elements/w59.jpg);
+    background-image: url(../img/elements/wmm2024.jpg);
 }
 
 .image04 {
-    background-image: url(../img/elements/w53.jpg);
+    background-image: url(../img/elements/2024rr.jpg);
 }
 
 .image05 {
@@ -256,7 +256,18 @@ body {
 .image61 {
     background-image: url(../img/elements/w21.jpg);
 }
-
+.image62 {
+    background-image: url(../img/elements/w58.jpg);
+}
+.image63 {
+    background-image: url(../img/elements/w99.jpg);
+}
+.image64 {
+    background-image: url(../img/elements/w59.jpg);
+}
+.image65 {
+    background-image: url(../img/elements/w53.jpg);
+}
 @media screen and (max-width: 400px) {
     .image-grid {
         flex-direction: column;
